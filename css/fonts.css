@@ -1,0 +1,16 @@
+@font-face {
+  font-family: Golos-bold;
+  src: url(../fonts/GolosText-Bold.woff2);
+}
+@font-face {
+  font-family: Golos-demibold;
+  src: url(../fonts/GolosText-DemiBold.woff2);
+}
+@font-face {
+  font-family: Golos-medium;
+  src: url(../fonts/GolosText-Medium.woff2);
+}
+@font-face {
+  font-family: Golos-regular;
+  src: url(../fonts/GolosText-Regular.woff2);
+}
