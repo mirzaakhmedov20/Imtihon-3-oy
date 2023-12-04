@@ -7,15 +7,16 @@
 nav a {
   text-decoration: none;
 }
-.container {
+
+.myContainer {
   /* justify-content: center; */
   /* border: 1px solid gray; */
   width: 100% !important;
-  /* max-width: 1440px; */
+  max-width: 1440px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .second_container {
   align-items: center;
@@ -44,15 +45,112 @@ nav a {
 .text a {
   text-decoration: none;
 }
-
-.footer {
-  max-width: 1440px;
-  width: 100% !important;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+.items-group {
+  gap: 14px;
 }
+.items-group li a {
+  color: #6c7178;
+  text-transform: capitalize;
+}
+.aksiya a {
+  background: url(../images/svg/aksiya.svg) center no-repeat;
+  border-radius: 100px;
+  padding: 5px 10px;
+}
+.visual {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: -1;
+}
+.category-title {
+  padding: 0 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 20px;
+  justify-content: space-between;
+}
+.category-title h2 {
+  font-family: Golos-bold;
+  font-size: 22px;
+  font-weight: 500;
+  color: #000;
+}
+.category-title p a {
+  font-family: Golos-demibold;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c7178;
+}
+.categories {
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.category-items {
+  align-items: center;
+  gap: 20px;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #e8e8e8;
+}
+.category-items span {
+  font-family: Golos-regular;
+  font-size: 16px;
+  font-weight: 400;
+  color: #37383a;
+  text-transform: capitalize;
+}
+.category-items i {
+  background: #fdf2f1;
+  border-radius: 10px;
+  color: #e6046d;
+  padding: 15px;
+  cursor: pointer;
+}
+.artel-company {
+  width: 100%;
+  padding: 0 10px;
+}
+.artel-company h2 {
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #000;
+}
+.maishiy-texnika span {
+  font-family: Golos-regular;
+  font-size: 14px;
+  font-weight: 400;
+  color: #37383a;
+  border-radius: 14px;
+  background: #e1e1e1a9;
+  padding: 7px 14px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.tv-cards {
+  gap: 45px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.oylik,
+.tv-zavod {
+  padding: 4px 12px;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.tv-cards del {
+  font-family: Golos-regular;
+  font-size: 12px;
+  font-weight: 400;
+  color: #6c7178;
+}
+.televizor {
+  background: #000 !important;
+}
+
 .items-group li a {
   font-family: Golos-regular;
   font-size: 13.5px;
@@ -64,4 +162,289 @@ nav a {
 .items-group li a {
   color: #6c7178;
   text-transform: capitalize;
+}
+
+.menu img {
+  border-radius: 10px;
+  /* padding: 10px; */
+  /* background-color: rgba(217,46,21,86); */
+}
+.tv-cards {
+  gap: 5px;
+}
+.card-tv {
+  max-width: 226px;
+}
+.card-tv h4 {
+  font-size: 15px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #272727;
+}
+.tv-zavod {
+  width: 110px;
+  background: #0e7e2e;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 12px;
+}
+.oylik {
+  border: 2px solid #868686;
+  border-radius: 10px;
+  color: #6c7178;
+  font-size: 13px;
+}
+.like,
+.shop,
+.taroz {
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.tv-origin {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 20px;
+}
+.stars {
+  width: 100px;
+  height: 100px;
+}
+.fa-wallet {
+  font-size: 10px;
+  color: #d92e15;
+}
+.bonus,
+.card-tv p {
+  color: #6c7178;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.bonus {
+  font-size: 12px;
+}
+.card-tv p {
+  width: 150px;
+  height: 50px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.shop {
+  background: #d92e15;
+  color: #fff;
+}
+.like,
+.taroz {
+  background: #e8e8e8;
+  margin-left: 10px;
+  color: #747373;
+}
+.yangiliklar {
+  padding: 0 10px;
+  margin-bottom: 40px;
+}
+.xit,
+.yangi {
+  border-radius: 6px;
+  padding: 4px 12px;
+  font-family: Golos-regular;
+  font-size: 12px;
+  color: #fff;
+}
+.hafta-takliflari h2,
+.notebooks h2,
+.yangiliklar h2 {
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 500;
+  color: #000;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.card-afzal h4,
+.card-afzal p,
+.xit,
+.yangi {
+  font-weight: 400;
+}
+.card-tv {
+  position: relative;
+}
+.yurak i {
+  right: 0;
+  top: 0;
+}
+.yangi {
+  width: 55px;
+  background: #e6044c;
+}
+.xit {
+  width: 80px;
+  background: #e6046d;
+}
+.brends,
+.hafta-takliflari,
+.nega-aynan,
+.notebooks {
+  padding: 0 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.btn-danger,
+.card-afzal h4 {
+  font-family: Golos-demibold;
+}
+.btn-danger {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  background: #d92e15;
+}
+.brends {
+  gap: 50px;
+}
+.brends span {
+  border: 1px solid #f3f2f2;
+  padding: 15px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.afzalliklar {
+  gap: 30px;
+  margin-bottom: 40px;
+}
+.card-afzal img {
+  background: #fdf2f1;
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card-afzal p,
+.nega-aynan h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.card-afzal {
+  border: 1px solid #f3f2f2;
+  border-radius: 15px;
+  padding: 10px;
+}
+.card-afzal h4 {
+  font-size: 16px;
+  color: #272727;
+}
+.card-afzal p {
+  font-size: 14px;
+  font-family: Golos-regular;
+  color: #868686;
+}
+.nega-aynan h2,
+.right-adds h2 {
+  font-size: 24px;
+  font-family: Golos-bold;
+}
+.nega-aynan h2 {
+  font-weight: 500;
+  color: #000;
+}
+.self-adds {
+  gap: 250px;
+  align-items: center;
+  width: 100%;
+  background: #f3f2f2;
+  padding: 0 10px;
+  margin-top: 100px;
+}
+.left-adds img {
+  transform: translateY(-40px);
+}
+.right-adds h2 {
+  color: #272727;
+  font-weight: 400;
+}
+.right-adds p {
+  width: 300px;
+  font-size: 14px;
+  color: #868686;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.magazin {
+  gap: 20px;
+  cursor: pointer;
+}
+.footer-item {
+  background: #272727;
+  width: 100%;
+  gap: 60px;
+  justify-content: space-around;
+  padding: 60px 20px;
+}
+.footer-contact h2 {
+  color: #fff;
+  font-size: 24px;
+  font-family: Golos-bold;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.footer-contact p {
+  width: 250px;
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.footer-contact span,
+.footer-contact span a {
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-regular;
+  font-weight: 400;
+}
+.malumotlar h4,
+.mijozlar h4,
+.tolov h4,
+.xizmatlar h4 {
+  color: #fff;
+  font-size: 14px;
+  font-family: Golos-demibold;
+  font-weight: 400;
+}
+.tolov {
+  width: 250px;
+}
+.tolov h4 {
+  margin-bottom: 10px;
+}
+.tolov img {
+  width: 100px;
+  height: 50px;
+  padding: 5px 20px;
+  margin: 5px;
+  border-radius: 10px;
+  background: #222c3a;
+}
+.malumotlar p,
+.mijozlar p,
+.xizmatlar p {
+  color: #6c7178;
+  font-size: 12px;
+  font-family: Golos-regular;
+  font-weight: 400;
+  cursor: pointer;
+}
+.malumotlar p:hover,
+.mijozlar p:hover,
+.xizmatlar p:hover {
+  color: #fff;
+}
+.footer {
+  max-width: 1540px;
+  width: 100% !important;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding-top: 10px;
 }
